@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Relationship Contract 💍</title>
+
+<style>
+  body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    margin:0;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+  }
+
+  .container{
+    background:white;
+    width:100%;
+    max-width:600px;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  }
+
+  h1{
+    text-align:center;
+    color:#ff4d6d;
+  }
+
+  label{
+    font-weight:bold;
+    display:block;
+    margin-top:10px;
+  }
+
+  input{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    border-radius:8px;
+    border:1px solid #ccc;
+  }
+
+  .section{
+    margin-top:20px;
+  }
+
+  .result{
+    display:none;
+    margin-top:20px;
+    text-align:center;
+    font-weight:bold;
+    color:#ff4d6d;
+  }
+
+  button{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    border:none;
+    border-radius:10px;
+    background:#ff4d6d;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>💍 Relationship Contract 💍</h1>
+
+<label>First Name:</label>
+<input type="text">
+
+<label>Middle Name:</label>
+<input type="text">
+
+<label>Last Name:</label>
+<input type="text">
+
+<label>Age:</label>
+<input type="number">
+
+<label>Birthday:</label>
+<input type="date">
+
+<label>Gmail:</label>
+<input type="email">
+
+<label>Contact Number:</label>
+<input type="text">
+
+<label>Date Today:</label>
+<input type="date">
+
+<div class="section">
+<input type="checkbox"> Terms and Conditions Agreed
+</div>
+
+<hr>
+
+<h3>📜 PROMISE SECTION 📜</h3>
+
+<p>Do you promise to be my partner in life?</p>
+<input type="radio" name="q1"> Yes<br>
+<input type="radio" name="q1"> Of course<br>
+<input type="radio" name="q1"> Why not?<br>
+
+<p>Will you take care of me for the rest of my life?</p>
+<input type="radio" name="q2"> Yes<br>
+<input type="radio" name="q2"> Of course<br>
+<input type="radio" name="q2"> Always<br>
+
+<p>Do you promise not to hurt me (like cheating)?</p>
+<input type="radio" name="q3"> Yes<br>
+<input type="radio" name="q3"> I would never cheat<br>
+<input type="radio" name="q3"> I'm loyal<br>
+
+<p>Will you reply even when you are asleep?</p>
+<input type="radio" name="q4"> Yes<br>
+<input type="radio" name="q4"> Yeah<br>
+<input type="radio" name="q4"> Yep<br>
+
+<p>Do you promise not to disappear during arguments?</p>
+<input type="radio" name="q5"> I promise<br>
+<input type="radio" name="q5"> I swear<br>
+<input type="radio" name="q5"> Of course, why not baby<br>
+
+<p>Do you promise to always come back to me?</p>
+<input type="radio" name="q6"> Yes<br>
+<input type="radio" name="q6"> Always<br>
+<input type="radio" name="q6"> I promise<br>
+
+<hr>
+
+<h3>💗 PERSONAL QUESTIONS 💗</h3>
+
+<p>Do you see me as your future wife?</p>
+<input type="radio" name="p1"> Yes<br>
+<input type="radio" name="p1"> No<br>
+
+<p>Do you truly love me?</p>
+<input type="radio" name="p2"> Yes<br>
+<input type="radio" name="p2"> No<br>
+
+<p>Will you stay through highs and lows?</p>
+<input type="radio" name="p3"> Yes<br>
+<input type="radio" name="p3"> No<br>
+
+<p>Do you trust me? Be honest.</p>
+<input type="radio" name="p4"> Yes<br>
+<input type="radio" name="p4"> No<br>
+
+<p>Am I annoying?</p>
+<input type="radio" name="p5"> Yes<br>
+<input type="radio" name="p5"> No<br>
+
+<p>Will you be my husband?</p>
+<input type="radio" name="p6"> Yes<br>
+<input type="radio" name="p6"> No<br>
+
+<hr>
+
+<h3>📝 ESSAY SECTION 📝</h3>
+
+<p>Will you choose me over your greatest love?</p>
+<textarea rows="2" style="width:100%"></textarea>
+
+<p>How about your mom? (be honest)</p>
+<textarea rows="2" style="width:100%"></textarea>
+
+<p>Will you stay even if I’m too much or hard to handle?</p>
+<textarea rows="2" style="width:100%"></textarea>
+
+<p>Will you still love me if I was a worm?</p>
+<textarea rows="2" style="width:100%"></textarea>
+
+<p>A dinosaur? ror</p>
+<textarea rows="2" style="width:100%"></textarea>
+
+<p>Describe me:</p>
+<textarea rows="2" style="width:100%"></textarea>
+
+<p>What do you love about me?</p>
+<textarea rows="2" style="width:100%"></textarea>
+
+<hr>
+
+<h3>⚠️ CONSEQUENCE SECTION ⚠️</h3>
+
+<p>If you break this contract, choose a consequence:</p>
+<input type="radio" name="c1"> Cut off your "dih"<br>
+<input type="radio" name="c1"> Cut it<br>
+<input type="radio" name="c1"> Cutting the dih<br>
+
+<p>Penalty for making me sulk:</p>
+<input type="radio" name="c2"> Send me a message<br>
+<input type="radio" name="c2"> Call and apologize<br>
+<input type="radio" name="c2"> Give me extra attention<br>
+
+<button onclick="show()">Submit Contract</button>
+
+<div class="result" id="result">
+🎉 Now that it’s settled, we are officially unofficially married 💖😂
+</div>
+
+</div>
+
+<script>
+function show(){
+  document.getElementById("result").style.display="block";
+}
+</script>
+
+</body>
+                                          </html>
